@@ -3,7 +3,10 @@ import tkinter as tk
 import tkinter
 
 var = messagebox.askokcancel("WinGDI.exe By Taha - Warning!", "Run Malware? (Ok And Cancel Are The Same Thing!)")
-var = messagebox.askyesno("WinGDI By Taha - Last Warning!", "Are You Sure? (Yes And No Are The Same Thing!)")
+var = messagebox.askyesno("WinGDI.exe By Taha - Last Warning!", "Are You Sure? (Yes And No Are The Same Thing!)")
+
+root = tk.Tk()
+root.withdraw()
 
 from win32gui import *
 from win32api import *
